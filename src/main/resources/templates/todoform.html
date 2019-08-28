@@ -11,10 +11,10 @@
     Task Name :<input type="text" th:field="*{taskname}" />
     <span th:if="${#fields.hasErrors('taskname')}"
           th:errors="*{taskname}"></span><br />
-    Due Date :<input type="text" th:fields="*{duedate}" />
+    Due Date :<input type="text" th:field="*{duedate}" />
     <span th:if="${#fields.hasErrors('duedate')}"
           th:errors="*{duedate}"></span><br />
-    Priority :<input type="text" th:fields="*{priority}" />
+    Priority :<input type="text" th:field="*{priority}" />
     <span th:if="${#fields.hasErrors('priority')}"
           th:errors="*{priority}"></span><br />
     <br />
